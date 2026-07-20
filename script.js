@@ -43,7 +43,7 @@ if (form) {
       message ? `*Message:* ${message}` : null,
     ].filter(line => line !== null).join('\n');
 
-    const waNumber = '917510603234';
+    const waNumber = '918075417647';
     const waUrl = `https://wa.me/${waNumber}?text=${encodeURIComponent(text)}`;
     window.open(waUrl, '_blank');
     form.reset();
